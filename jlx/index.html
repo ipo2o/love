@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /> 
+  <title>金龙欣的小礼物！！！</title> 
+  <link href="https://resources.xmsq.net/style11/css/style.css" rel="stylesheet" type="text/css" /> 
+  <script type="text/javascript" src="./function.js"></script> 
+ </head> 
+ <body style="background: url(./bg.jpg) center top #f4f4f4;"> 
+  <script>
+var container;var camera,scene,projector,renderer;var PI2=Math.PI*2;var programFill=function(a){a.beginPath();a.arc(0,0,1,0,PI2,true);a.closePath();a.fill()};var programStroke=function(a){a.lineWidth=0.05;a.beginPath();a.arc(0,0,1,0,PI2,true);a.closePath();a.stroke()};var mouse={x:0,y:0},INTERSECTED;init();animate();function init(){container=document.createElement("div");container.id="bgc";container.style.position="relative";container.style.zIndex="0";document.body.appendChild(container);camera=new THREE.PerspectiveCamera(70,window.innerWidth/window.innerHeight,1,10000);camera.position.set(0,300,500);scene=new THREE.Scene();for(var a=0;a<100;a++){var b=new THREE.Particle(new THREE.ParticleCanvasMaterial({color:Math.random()*8421504+8421504,program:programStroke}));b.position.x=Math.random()*800-400;b.position.y=Math.random()*800-400;b.position.z=Math.random()*800-400;b.scale.x=b.scale.y=Math.random()*10+10;scene.add(b)}projector=new THREE.Projector();renderer=new THREE.CanvasRenderer();renderer.setSize(window.innerWidth,window.innerHeight);container.appendChild(renderer.domElement);document.addEventListener("mousemove",onDocumentMouseMove,false);window.addEventListener("resize",onWindowResize,false)}function onWindowResize(){var captcha="love.xmsq.net";if(captcha!=='love.xmsq.net'){alert('非正版，请百度星梦表白网生成正版表白网！')};camera.aspect=window.innerWidth/window.innerHeight;camera.updateProjectionMatrix();renderer.setSize(window.innerWidth,window.innerHeight)}function onDocumentMouseMove(a){a.preventDefault();mouse.x=(a.clientX/window.innerWidth)*2-1;mouse.y=-(a.clientY/window.innerHeight)*2+1}function animate(){requestAnimationFrame(animate);render()}var radius=600;var theta=0;function render(){theta+=0.2;camera.position.x=radius*Math.sin(theta*Math.PI/360);camera.position.y=radius*Math.sin(theta*Math.PI/360);camera.position.z=radius*Math.cos(theta*Math.PI/360);camera.lookAt(scene.position);camera.updateMatrixWorld();var b=new THREE.Vector3(mouse.x,mouse.y,0.5);projector.unprojectVector(b,camera);var a=new THREE.Ray(camera.position,b.subSelf(camera.position).normalize());var c=a.intersectObjects(scene.children);if(c.length>0){if(INTERSECTED!=c[0].object){if(INTERSECTED){INTERSECTED.material.program=programStroke}INTERSECTED=c[0].object;INTERSECTED.material.program=programFill}}else{if(INTERSECTED){INTERSECTED.material.program=programStroke}INTERSECTED=null}renderer.render(scene,camera)};</script>
+  <div id="bgc" style="position: fixed;top:0; z-index: 0;">
+   <canvas width="1920" height="920"></canvas>
+  </div> 
+  <div class="mb-box"> 
+   <div class="style11"> 
+    <h1>金龙欣，你是注定要嫁给我！！！</h1> 
+    <div class="style11_text">傻丫头，点开了吧！！！先别感动<br/><br/>微信朋友圈，QQ空间，微信语音，QQ语音，回答我你愿意和我走很远很远吗想成为我的小宝宝吗还有愿意嫁给我吗？？？<br/><br/><br/>当然啦！欠你一次正式表白，我现在补上吧！！！开心不，哈哈<br/><br/>大头维，维慰（你看我都还记着你以前的网名），时间好快呀！我们都认识了70天了，傻丫头！！！其中，10天我都是以弟弟的身份和你说话（你把我骂惨了，我都记下了，嘿嘿）！！！<br/><br/>这里我引用张爱玲的美句：<br/>       每想你一次，天上飘落一粒沙，从此形成了撒哈拉。长期被封闭在这只有一条街的镇上，就好似一个断了腿的人又偏偏住在一个没有出口的巷子里一样寂寞，千篇一律的日子，没有过分的快乐，也谈不上什么哀愁。<br/><br/>         我看着那些上升的烟火，觉得他们安详的近乎优雅起来。自由自在的生活，在我的解释里，就是精神文明。<br/>今生是我的初恋，今世是我的爱人！每想你一次，天上飘落一粒沙，从此形成了撒哈拉！流去的种种，化为一群一群蝴蝶，虽然早已明白了，世上的生命，大半朝生暮死，而蝴蝶也是朝生暮死，可是依然为着它的色彩目眩神迷，觉着生命所有的神秘与极美已在蜕变中张显了全部的答案。<br/><br/>今生是我的初恋，今世是我的爱人！（傻丫头自己慢慢理解，哈哈）<br/><br/>So the most distant way in the world<br/>is not in the being sepearated branches.<br/>It is in the blinking stars<br/>they can't burn the light.<br/>So the most distant way in the world<br/>is not the burning stars.<br/>It is after the light<br/>they can't be seen from afar.<br/><br/>现在，我也告诉你：<br/>I don't want to share you No one can take you from me.<br/><br/>丫头，如果有机会我会来和你相遇！！！<br/><br/>很喜欢至尊宝的一句话：曾经，有一份真诚的爱情放在我面前， 我没有珍惜， 等到我失去的时候才后悔莫及， 人世间最痛苦的事莫过于此…… 如果上天能够给我一个再来一次的机会， 我会对那个女孩子说三个字： “我爱你。” 如果非要在这份爱上加上一个期限， 我希望是……一万年一千年一亿年!<br/><br/>金龙欣，谢谢，时光让我遇见你！！！无悔遇见你<br/><br/>有缘我们自会相见哦！！！要快快乐乐哦！！！<br/><br/>也许，我们会走很远很远很远！！！也许，我会踩着七色云彩来娶你你你！！！<br/><br/>Love will you never change.爱你永不变</div> 
+    <p class="style11_myname">fanxiaoyi<br />2021-01-11</p> 
+    <p class="love_time">喜欢倒计时：<span><script>var together = new Date();
+    together.setFullYear(2021,01,29);
+    together.setHours(0);
+    together.setMinutes(0);
+    together.setSeconds(0);
+    together.setMilliseconds(0);
+    show(together);
+    setInterval(function () {
+    show(together);
+    }, 500);
+</script> </span></p> 
+   </div> 
+   <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["sqq","qzone","weixin","tsina","tqq","copy","tieba","mshare"],"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"250"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    <!--判断用户输入的音乐连接类型 然后做出相应的布局-->
+        <div id="musicplay">
+        <audio src="https://www.ipo2o.xyz/sjyn.mp3" controls="controls" autoplay="autoplay"/>
+    </div>
+       </div> 
+  </div>  
+ </body>
+</html><div style="display: none">
+            |     </div>
